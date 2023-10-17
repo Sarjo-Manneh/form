@@ -1,4 +1,7 @@
-/* form {
+/* ... (previous styles) ... */
+
+/* General Form Styles */
+/* .frame-container form {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -7,21 +10,21 @@
     border: 2px solid #dcdcdc;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-} */
+}
 
-label {
+.frame-container label {
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
 }
 
-label p {
+.frame-container label p {
     margin-bottom: 10px;
     font-weight: 600;
     color: #333;
 }
 
-input[type="text"] {
+.frame-container input[type="text"] {
     padding: 10px;
     font-size: 14px;
     border: 1px solid #dcdcdc;
@@ -30,11 +33,11 @@ input[type="text"] {
     transition: border-color 0.2s;
 }
 
-input[type="text"]:focus {
+.frame-container input[type="text"]:focus {
     border-color: #007BFF;
 }
 
-button {
+.frame-container button {
     background-color: #007BFF;
     color: #ffffff;
     padding: 10px 20px;
@@ -45,12 +48,12 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+.frame-container button:hover {
     background-color: #0056b3;
 }
 
-div {
+.frame-container div {
     margin-top: 10px;
     font-weight: 600;
     color: red;
-}
+} */

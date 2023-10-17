@@ -1,36 +1,39 @@
-.controlled-form {
-    max-width: 300px;
-    margin: 20px auto; /* center the form if parent has defined width */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin: 50px auto;
     padding: 20px;
-    border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    border: 2px solid #dcdcdc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.controlled-label {
-    display: block;
+label {
     font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
-.controlled-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #d0d0d0;
-    border-radius: 4px;
+input[type="text"] {
+    padding: 10px 15px;
+    margin-top: 5px;
     font-size: 14px;
-    transition: border-color 0.3s ease;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    transition: border-color 0.3s;
 }
 
-.controlled-input:focus {
-    border-color: #007BFF; /* change this color if you want */
-    outline: none;
+input[type="text"]:focus {
+    border-color: #007BFF;
 }
 
 .controlled__text {
-    margin-top: 20px;
     font-size: 14px;
+    font-weight: 400;
     color: #333;
+    margin-top: 10px;
 }

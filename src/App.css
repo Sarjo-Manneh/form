@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;  /* takes the full viewport width */
+  height: 100vh; /* takes the full viewport height */
+  background-color: #f7f7f7; /* or any color you prefer */
+}
