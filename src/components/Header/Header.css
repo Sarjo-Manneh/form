@@ -1,0 +1,19 @@
+/* Ensures full height layout */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centers children vertically */
+    align-items: center;     /* centers children horizontally */
+    height: 100%;
+}
+
+.form-container {
+    width: 50%;   /* or whatever width you prefer */
+    margin: auto; /* this will center the form horizontally */
+    /* Add other styles such as padding or border if needed */
+}

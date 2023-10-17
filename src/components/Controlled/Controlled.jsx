@@ -6,7 +6,7 @@ import "./Controlled.css";
     setInputValue(event.target.value);
   };
   return (
-    <form>
+    <form>n
       <label>
         Input Value:
         <input type="text" value={inputValue} onChange={handleChange} />

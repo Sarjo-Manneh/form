@@ -1,4 +1,4 @@
-.Controlled-form {
+.controlled-form {
     max-width: 300px;
     margin: 20px auto; /* center the form if parent has defined width */
     padding: 20px;
@@ -8,14 +8,14 @@
     background-color: #f9f9f9;
 }
 
-.Controlled-label {
+.controlled-label {
     display: block;
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-.Controlled-input {
+.controlled-input {
     width: 100%;
     padding: 10px;
     border: 1px solid #d0d0d0;
@@ -24,12 +24,12 @@
     transition: border-color 0.3s ease;
 }
 
-.Controlled-input:focus {
+.controlled-input:focus {
     border-color: #007BFF; /* change this color if you want */
     outline: none;
 }
 
-.Controlled__text {
+.controlled__text {
     margin-top: 20px;
     font-size: 14px;
     color: #333;
