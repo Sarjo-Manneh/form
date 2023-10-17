@@ -6,7 +6,7 @@ import Validate from "./components/Validate/Validate";
 import Uncontrolled from "./components/Uncontrolled/Uncontrolled";
 import Controlled from "./components/Controlled/Controlled";
 import ReactHookForm from "./components/ReactHookForm/ReactHookForm";
-import Index from "./components/Index/Index"
+// import Index from "./components/Index/Index"
 
 
 
@@ -20,7 +20,7 @@ const App = () => {
        <Validate />
       <Uncontrolled />
        <ReactHookForm />    
-       <Index/>
+       {/* <Index/> */}
     </div>
   );
 };

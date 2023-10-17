@@ -1,4 +1,36 @@
-.controlled__text {
-     margin-top: 20px;
-    }
-    
+.Controlled-form {
+    max-width: 300px;
+    margin: 20px auto; /* center the form if parent has defined width */
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.Controlled-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.Controlled-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.Controlled-input:focus {
+    border-color: #007BFF; /* change this color if you want */
+    outline: none;
+}
+
+.Controlled__text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
